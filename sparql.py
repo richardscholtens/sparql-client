@@ -47,7 +47,7 @@ and then executes them. Use a double line (two 'enters') to separate queries.
 Otherwise, the query is read from standard input.
 """
 
-from base64 import encodebyte
+from base64 import encodebytes
 from six.moves import input, map
 from six.moves.urllib.parse import urlencode
 from xml.dom import pulldom
